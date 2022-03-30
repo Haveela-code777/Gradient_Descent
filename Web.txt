@@ -1,0 +1,8 @@
+Request Methods 
+
+GET  --> Retrieve objects from Server {object id}
+POST --> Create/Send objects in/to Server {object data}
+PUT  --> Update objects in Server {object id}
+DELETE --> Delete objects in Server {object id}
+
+CRUD operations

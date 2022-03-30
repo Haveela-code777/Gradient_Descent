@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gradient Descent</title>
+</head>
+<body>
+    <form action="result/"  method="POST">
+        {%csrf_token%}
+        <label for="xvalue">Feature:</label><br>
+        <input type="text" id="xvalue", name="xdata"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
+
+
